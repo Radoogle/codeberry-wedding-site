@@ -80,6 +80,14 @@ a:hover {
   width: 100vw;
 }
 
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
 .hero-text-wrapper {
   display: table-cell;
   vertical-align: middle;
@@ -99,9 +107,31 @@ a:hover {
   margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
 }
 
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
 .tagline {
   font-size: 1.25rem;
   letter-spacing: .15rem;
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
 }
 
 .tagline::after {
@@ -157,6 +187,21 @@ a:hover {
   background-color: #444349;
 }
 
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+
 /* =============================
 
       PROGRAM STYLES
@@ -183,6 +228,15 @@ a:hover {
 
 .program ul {
   letter-spacing: .025rem;
+}
+
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
 }
 
 /* =============================
@@ -239,6 +293,26 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
+}
+
 /* =============================
 
       FOOTER STYLES
@@ -270,26 +344,13 @@ footer small {
   line-height: 1.5;
 }
 
+@media (min-width: 768px) {
 
+  footer {
+    min-height: 7vh;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
